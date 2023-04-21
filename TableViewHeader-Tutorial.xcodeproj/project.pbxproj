@@ -12,6 +12,8 @@
 		426E443F29E73FF200E87810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426E443E29E73FF200E87810 /* ViewController.swift */; };
 		426E444429E73FF400E87810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426E444329E73FF400E87810 /* Assets.xcassets */; };
 		426E444729E73FF400E87810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426E444529E73FF400E87810 /* LaunchScreen.storyboard */; };
+		42CCF77B29F27AE500306E36 /* TableViewHeadwer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CCF77A29F27AE500306E36 /* TableViewHeadwer.swift */; };
+		42CCF77D29F27C0700306E36 /* TableViewFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CCF77C29F27C0700306E36 /* TableViewFooter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		426E444329E73FF400E87810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		426E444629E73FF400E87810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		426E444829E73FF400E87810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CCF77A29F27AE500306E36 /* TableViewHeadwer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHeadwer.swift; sourceTree = "<group>"; };
+		42CCF77C29F27C0700306E36 /* TableViewFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewFooter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				426E443E29E73FF200E87810 /* ViewController.swift */,
 				426E444E29E7401B00E87810 /* Supporting */,
 				426E444829E73FF400E87810 /* Info.plist */,
+				42CCF77A29F27AE500306E36 /* TableViewHeadwer.swift */,
+				42CCF77C29F27C0700306E36 /* TableViewFooter.swift */,
 			);
 			path = "TableViewHeader-Tutorial";
 			sourceTree = "<group>";
@@ -142,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42CCF77B29F27AE500306E36 /* TableViewHeadwer.swift in Sources */,
 				426E443F29E73FF200E87810 /* ViewController.swift in Sources */,
 				426E443B29E73FF200E87810 /* AppDelegate.swift in Sources */,
+				42CCF77D29F27C0700306E36 /* TableViewFooter.swift in Sources */,
 				426E443D29E73FF200E87810 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

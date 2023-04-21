@@ -31,8 +31,25 @@ class ViewController: UIViewController {
         
         self.tableView.delegate = self
         self.tableView.dataSource = self
+        
+        let tableHeaderView = TableViewHeadwer(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 250))
+        self.tableView.tableHeaderView = tableHeaderView
+        if #available(iOS 15.0, *) { tableView.sectionHeaderTopPadding = 0.0 }
+        
+        let tableViewFooter = TableViewFooter(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 200))
+        self.tableView.tableFooterView = tableViewFooter
+        if #available(iOS 15.0, *) { tableView.sectionHeaderTopPadding = 0.0 }
+        
+        
+        tableViewFooter.onButtonClicked = { [weak self] in
+            let sectionNo = Int.random(in: 0...25)
+            self?.items.append(sectionNo.description)
+            
+            DispatchQueue.main.async { [weak self] in
+                self?.tableView.reloadData()
+            }
+        }
     }
-    
     
     // MARK: - UI Setup
     private func setupUI() {
