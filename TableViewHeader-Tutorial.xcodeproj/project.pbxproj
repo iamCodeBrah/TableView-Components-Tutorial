@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4235CFFA29FA812C009C87E4 /* CellHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4235CFF929FA812C009C87E4 /* CellHeader.swift */; };
 		426E443B29E73FF200E87810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426E443A29E73FF200E87810 /* AppDelegate.swift */; };
 		426E443D29E73FF200E87810 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426E443C29E73FF200E87810 /* SceneDelegate.swift */; };
 		426E443F29E73FF200E87810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426E443E29E73FF200E87810 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4235CFF929FA812C009C87E4 /* CellHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellHeader.swift; sourceTree = "<group>"; };
 		426E443729E73FF200E87810 /* TableViewHeader-Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableViewHeader-Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		426E443A29E73FF200E87810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		426E443C29E73FF200E87810 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				426E444829E73FF400E87810 /* Info.plist */,
 				42CCF77A29F27AE500306E36 /* TableViewHeadwer.swift */,
 				42CCF77C29F27C0700306E36 /* TableViewFooter.swift */,
+				4235CFF929FA812C009C87E4 /* CellHeader.swift */,
 			);
 			path = "TableViewHeader-Tutorial";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4235CFFA29FA812C009C87E4 /* CellHeader.swift in Sources */,
 				42CCF77B29F27AE500306E36 /* TableViewHeadwer.swift in Sources */,
 				426E443F29E73FF200E87810 /* ViewController.swift in Sources */,
 				426E443B29E73FF200E87810 /* AppDelegate.swift in Sources */,
